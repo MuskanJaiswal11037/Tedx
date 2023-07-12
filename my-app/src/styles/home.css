@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin:0;
+    padding:0px;
+}
+.Home-page header{
+    position:sticky;
+    top:0px;
+    background-color: rgb(28, 23, 23);
+}
+.Home-page {
+    background-image:url("https://undsgn.com/wp-content/uploads/2018/04/ltotbngnzzu.jpg");
+    height:200vh;
+    width:100vw;
+    font-family: 'Lato', sans-serif;
+    line-height: 2.0;
+    /* background-color:#161618; */
+}
+.Home-page nav{
+   
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    color:white;
+    position:sticky;
+    top:0px;
+}
+.Home-page .logo{
+    
+    width:6vh;
+    height:6vh;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ9kb1tFb13ee_4FZ37_sEUhvysQ9VtqWDcA&usqp=CAU");
+    background-size: contain;
+    background-size: 6vh;
+    position:sticky;
+    top:0px;
+}
+.Home-page ul{
+display:flex;
+flex-direction:row;
+height:7vh;
+align-items:center;
+list-style: none;
+}
+.Home-page li{
+    padding:60px;
+    font-weight:600;
+    font-size:larger;
+    text-transform:uppercase;   
+}
+.Home-page .Home{
+    color:rgb(242, 14, 59);
+    text-decoration: none;   
+}
+.Home-page .About-Nav, .Home-page .Event-Info{
+    color:white;
+    text-decoration: none;
+}
+.Home-page .container{
+    display:flex;
+    justify-content:left;
+    align-items:center;
+    flex-direction: column;
+    /* background-color: #161618; */
+}
+.Home-page .Tedx-Main1{
+    background-image:url("https://iithadmissionsblog.files.wordpress.com/2016/06/img_0540-2.jpg?w=1200&h=800&crop=1"); 
+    animation: images 1s ease-in-out  ;
+    background-size: cover; 
+    height:65vh;
+    width:60vw;   
+   
+}
+.Home-page .Tedx-Main2{
+    margin:80px;
+    width:80vh;
+    height:35vh;
+    text-align: center;
+    color:white;  
+
+}
+.Home-page h3{
+    margin-top:10vh;
+    color:rgb(242, 14, 59);
+    font-weight: bold;
+}
+.Home-page p{
+   font-size: 22px;
+} 
+
+.Home-page .img2,.img3{
+    margin-top: 10vh;
+    width:32vw;
+    height:40vh;
+    padding:100px;
+    padding-top:40px;
+    animation: smaller-images 1s ease-in-out  3.5s;  
+}
+@keyframes images {
+    0% {
+        width:0;
+        height:65vh;
+    }
+    100%{
+        height:65vh;
+        width:60vw;  
+    }    
+}
+
+@keyframes smaller-images {
+    0% {
+        width:0;
+        height:40vh;
+    }
+    100%{
+        height:40vh;
+        width:32vw;  
+    }    
+}

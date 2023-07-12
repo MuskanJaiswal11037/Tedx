@@ -1,0 +1,29 @@
+.footer-main{
+   
+    background-image:url("https://undsgn.com/wp-content/uploads/2018/04/ltotbngnzzu.jpg");
+    width:100vw;
+    height:28vh;
+    display:flex;
+     flex-direction:row;
+     color:white;
+     font-size: medium;
+   
+ }
+ .footer-main ul{
+     display:flex;
+     flex-direction:column;
+     width:30vw;  
+     list-style: none;
+     
+ }
+  .footer-main li{
+     padding: 5px 30px;
+     font-weight: light;
+     font-size: 10px;
+  
+ }
+ .first{
+     color:rgb(242, 14, 59);
+     font-weight:bold;
+     font-size: 10px;
+ }

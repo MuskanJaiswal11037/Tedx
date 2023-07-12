@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Tedx/static/css/main.ad99ec2e.css",
+    "main.js": "/Tedx/static/js/main.88d2d343.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Tedx/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/Tedx/index.html",
+    "main.ad99ec2e.css.map": "/Tedx/static/css/main.ad99ec2e.css.map",
+    "main.88d2d343.js.map": "/Tedx/static/js/main.88d2d343.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Tedx/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad99ec2e.css",
+    "static/js/main.88d2d343.js"
+  ]
+}

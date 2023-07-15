@@ -28,11 +28,11 @@
 }
 .Home-page .logo{
     
-    width:6vh;
-    height:6vh;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ9kb1tFb13ee_4FZ37_sEUhvysQ9VtqWDcA&usqp=CAU");
+    width:8vw;
+    height:8vh;
+    background-image: url("https://cdn.telanganatoday.com/wp-content/uploads/2021/03/Tedx.jpg");
     background-size: contain;
-    background-size: 6vh;
+    /* background-size: 8vh; */
     position:sticky;
     top:0px;
 }

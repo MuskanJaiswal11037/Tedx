@@ -1,7 +1,8 @@
 # Tedx
-To start on you local server:-
+# client side (PORT 3000)
 cd frontend
 npm start
 
-The link for the website is:-
+# The link to the website is:-
+https://muskanjaiswal11037.github.io/Tedx/
 
